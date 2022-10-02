@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas1_PBP_672020145</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="title">
+            <h1>Registration Form</h1>
+        </div>
+
+        <form method="POST" action="act.php">
+
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Full Name : </span>
+                    <input type="text" name="name" id="">
+                </div>
+                <div class="input-box">
+                    <span class="details"> Address : </span>
+                    <input type="text" name="addr" id="">
+                </div>
+                
+            </div>
+
+            <div class="gender-details">
+                <span class="gender-title"> Gender : </span>
+                <div class="gender-category">
+                <input type="radio" name="gndr" value="Male">
+                <label for="ml">Male</label><br>
+                <input type="radio" name="gndr" value="Female">
+                <label for="fml">Female</label><br>
+                </div>  
+            </div>
+
+            <div class="work-details">
+                <span class="work-title"> Proffesion : </span>
+                <select name="prfsn" id="">
+                    <option value="Pelajar">Pelajar</option>
+                    <option value="Mahasiswa">Mahasiswa</option>
+                    <option value="Pegawai">Pegawai</option>
+                    <option value="Wiraswasta">Wiraswasta</option>
+                </select>
+            </div>
+
+            <div class="button">
+                <input type="submit" value="Register now">
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>
